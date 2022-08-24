@@ -1,6 +1,6 @@
 require('colors');
 const shell = require('shelljs');
-const { repository } = require('./config');
+const { repository } = require('./config.json');
 
 const { delivery } = repository;
 
